@@ -1,4 +1,4 @@
-.container{
+.container {
   height: 100%;
   overflow-y: scroll;
   padding-right: 10px;
@@ -17,7 +17,7 @@
   cursor: pointer;
 }
 
-.icon{
+.icon {
   margin-left: 18px;
 }
 
@@ -41,16 +41,16 @@
   padding: 0px 15px;
 }
 
-.microphone{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    width: 40px;
-    border-radius: 20px;
-    background-color: #E5E5E5;
-    cursor: pointer;
-    margin-left: 12px;
+.microphone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  background-color: #e5e5e5;
+  cursor: pointer;
+  margin-left: 12px;
 }
 
 .right {
@@ -58,31 +58,68 @@
   gap: 20px;
 }
 
-.create{
+.create {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 36px;
   width: 97.17px;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
   border-radius: 20px;
   gap: 5px;
 }
 
-.notofication{
+.notofication {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.profile-pic img{
+.profile-pic img {
   height: 32px;
   border-radius: 50%;
 }
 
-.sidebar{
-  width: 210px;
-  background-color: aliceblue;
+.sidebar {
+  height: 631px;
+  width: 234px;
   position: absolute;
   overflow-y: scroll;
+  font-family: "Roboto", "Arial", sans-serif;
+}
+
+.sidebar1 {
+  display: flex;
+  align-items: center;
+  padding: 6px;
+  padding-left: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.sidebar1 img {
+  height: 24px;
+  width: 24px;
+}
+
+.sidebar1:hover {
+  background-color: #c4c2c2;
+}
+
+.footer {
+  padding-top: 14px;
+  padding-left: 5px;
+  font-size: 15px;
+}
+
+.footer1 {
+  /* display: flex; */
+  margin-left: 12px;
+  margin-bottom: 12px;
+  gap: 14px;
+}
+
+.footer1 a {
+  text-decoration: none;
+  color: #484848;
 }
