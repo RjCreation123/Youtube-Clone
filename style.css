@@ -8,7 +8,8 @@
 .navbar {
   display: flex;
   justify-content: space-between;
-  position: static;
+  position: sticky;
+  top: 0;  
   height: 56px;
 }
 
@@ -72,7 +73,7 @@
   gap: 5px;
 }
 
-.notofication {
+.notification {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -86,7 +87,7 @@
 .sidebar {
   height: 631px;
   width: 234px;
-  position: absolute;
+  position: fixed;
   overflow-y: scroll;
   font-family: "Roboto", "Arial", sans-serif;
 }
@@ -134,15 +135,44 @@
   margin-right: 15px;
   position: absolute;
   overflow-x: scroll;
-  gap: 5px;
+  overflow-y: hidden;
+  gap: 10px;
 }
 
 .tabbar1{
-  display: inline-block;
-  justify-content: center;
+  height: 32px;
+  display: flex;
   align-items: center;
   background-color: #ededed;
   border-radius: 5px;
   padding: 5px;
   border: none;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+
+.tabbar :first-child{
+  background-color: #000000;
+  color: #fff;
+}
+
+.content{
+  height: 360px;
+  margin-left: 230px;
+  margin-top: 47px;
+}
+
+.row1{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.contentV{
+  margin-top: 25px;
+  margin-left: 26px;
+  cursor: pointer;
+}
+
+.contentV iframe{
+  border-radius: 12px;
 }
